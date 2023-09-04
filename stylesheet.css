@@ -1,0 +1,55 @@
+:root {
+    font-size: 16px;
+    font: sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100dvh;
+    width: 100dwh;
+}
+
+.sidebar {
+    width: 40%;
+}
+
+.form-section {
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 4px rgba(0, 0, 0, .2);
+    margin-left: 32px;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: pre-line
+}
+
+.form-items {
+    display: flex;
+    border: 0;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    appearance: none;
+    border-color: #E5E7EB;
+    box-shadow: none;
+    opacity: 0.4;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+}
